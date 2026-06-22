@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003885-blue)](https://doi.org/10.82901/nemar.on003885)
+
 Overview
 ——————————————————
 This data is from the paper "Capacity for movement is a major organisational principle in object representations". This is the data of Experiment 1 (EEG: aliveness). The preprint is here: https://doi.org/10.31234/osf.io/3x2qh 
