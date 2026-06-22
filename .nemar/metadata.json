@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Capacity for movement is an organisational principle in object representations: EEG data from Experiment 1",
-  "description": "This dataset contains electroencephalographic (EEG) recordings from 24 participants performing object classification and passive viewing tasks in Experiment 1 of a study investigating how the brain represents object movement and aliveness. Participants classified static images of objects with varying capacities for movement (e.g., plants, waves) as alive or not alive, or viewed rapid image streams during passive viewing. The study demonstrates that capacity for movement is a significant organizational principle in visual object representation, independent of animacy.",
-  "methods_description": "EEG data were recorded while participants completed two tasks: (1) a time-pressured classification task where participants classified single images as 'alive' or 'not alive' with a 1-second timeout, and (2) a passive viewing task with rapid serial visual presentation (RSVP) streams of images where participants detected fixation cross color changes. Raw EEG data are provided in BrainVision format (.eeg, .vmrk, .vhdr), with preprocessed data available in EEGlab (.set, .fdt) and cosmoMVPA (.mat) formats.",
+  "description": "This dataset contains electroencephalographic (EEG) recordings from 24 participants performing object classification and passive viewing tasks in Experiment 1 of a study investigating how the brain represents object movement and aliveness. Participants classified static images of objects with varying capacities for movement (moving/non-moving) and animacy (alive/not alive) as either alive or capable of movement. The study demonstrates that movement capacity is a significant organizational principle in visual object representation, independent of animacy.",
+  "methods_description": "EEG data were recorded while participants completed two tasks: (1) a time-pressured classification task where participants classified images as alive or not alive (1-second timeout), and (2) a passive viewing task with rapid serial visual presentation (RSVP) streams where participants detected fixation cross color changes. Raw EEG data are provided in BrainVision format (.eeg, .vmrk, .vhdr), with preprocessed data available in EEGlab (.set, .fdt) and cosmoMVPA (.mat) formats.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -69,11 +69,11 @@
   ],
   "funding_references": [
     {
-      "funder_name": "Australian Research Council",
+      "funder_name": "ARC",
       "award_number": "DP160101300"
     },
     {
-      "funder_name": "Australian Research Council",
+      "funder_name": "ARC",
       "award_number": "DP200101787"
     }
   ],
