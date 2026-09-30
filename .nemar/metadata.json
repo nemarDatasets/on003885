@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Capacity for movement is an organisational principle in object representations: EEG data from Experiment 1",
-  "description": "This dataset contains electroencephalographic (EEG) recordings from 24 participants performing object classification and passive viewing tasks in Experiment 1 of a study investigating how the brain represents object movement and aliveness. Participants classified static images of objects with varying capacities for movement (moving/non-moving) and animacy (alive/not alive) as either alive or capable of movement. The study demonstrates that movement capacity is a significant organizational principle in visual object representation, independent of animacy.",
-  "methods_description": "EEG data were recorded while participants completed two tasks: (1) a time-pressured classification task where participants classified images as alive or not alive (1-second timeout), and (2) a passive viewing task with rapid serial visual presentation (RSVP) streams where participants detected fixation cross color changes. Raw EEG data are provided in BrainVision format (.eeg, .vmrk, .vhdr), with preprocessed data available in EEGlab (.set, .fdt) and cosmoMVPA (.mat) formats.",
+  "description": "EEG dataset from Experiment 1 of a study on whether capacity for movement is an organisational principle in visual object representations. Twenty-four participants viewed images of moving or non-moving, natural or artificial objects, completing a time-pressured aliveness classification task and a passive RSVP viewing task with a fixation-colour detection response. The release includes raw BrainVision EEG, preprocessed EEGLAB and CoSMoMVPA data, decoding results, analysis code, and 400 CC0 stimulus images.",
+  "methods_description": "EEG was recorded with BrainVision while participants classified single images as alive or not alive (1 s timeout) and, in a passive viewing task, watched rapid serial visual presentation streams while pressing a button when the fixation cross changed colour. Analyses included decoding, representational similarity analysis and GLMs.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -30,29 +30,29 @@
       "term": "EEG"
     },
     {
-      "term": "object recognition"
+      "term": "object representation"
     },
     {
-      "term": "movement perception"
+      "term": "animacy"
     },
     {
-      "term": "visual processing"
+      "term": "capacity for movement"
     },
     {
-      "term": "neural representation"
+      "term": "decoding"
     },
     {
-      "term": "decoding analysis"
+      "term": "representational similarity analysis"
+    },
+    {
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003885",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003885",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -65,15 +65,20 @@
       "identifier": "10.18112/openneuro.ds003885.v1.0.7",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003885",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
     {
-      "funder_name": "ARC",
+      "funder_name": "Australian Research Council",
       "award_number": "DP160101300"
     },
     {
-      "funder_name": "ARC",
+      "funder_name": "Australian Research Council",
       "award_number": "DP200101787"
     }
   ],
@@ -83,7 +88,7 @@
     "eeg"
   ],
   "sizes": [
-    "88.2 GB (695 files)"
+    "82.18 GB (695 files)"
   ],
   "formats": [
     ".eeg",
