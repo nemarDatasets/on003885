@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Capacity for movement is an organisational principle in object representations: EEG data from Experiment 1",
-  "description": "EEG dataset from Experiment 1 of a study on whether capacity for movement is an organisational principle in visual object representations. Twenty-four participants viewed images of moving or non-moving, natural or artificial objects, completing a time-pressured aliveness classification task and a passive RSVP viewing task with a fixation-colour detection response. The release includes raw BrainVision EEG, preprocessed EEGLAB and CoSMoMVPA data, decoding results, analysis code, and 400 CC0 stimulus images.",
-  "methods_description": "EEG was recorded with BrainVision while participants classified single images as alive or not alive (1 s timeout) and, in a passive viewing task, watched rapid serial visual presentation streams while pressing a button when the fixation cross changed colour. Analyses included decoding, representational similarity analysis and GLMs.",
+  "description": "This dataset contains EEG recordings from 24 participants viewing static images of objects that differ in aliveness and in capacity for movement (alive/still, not alive/moving, natural, artificial). Participants completed a time-pressured aliveness classification task and a passive RSVP viewing task with a fixation-colour detection task. The data were used to show that capacity for movement explains variance in neural object representations over and above aliveness. Raw BrainVision data, preprocessed EEGLAB and CoSMoMVPA data, decoding results, analysis code and 400 CC0 stimulus images are included.",
+  "methods_description": "EEG was recorded with a BrainVision system while participants viewed images in two tasks. In the classification task, they judged images as 'alive' or 'not alive' with a 1-second timeout. In the passive viewing task, they viewed rapid serial visual presentation streams and pressed a button when the fixation cross changed colour. Analyses included preprocessing, representational similarity analysis, decoding and GLMs.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -30,7 +30,7 @@
       "term": "EEG"
     },
     {
-      "term": "object representation"
+      "term": "object recognition"
     },
     {
       "term": "animacy"
@@ -39,10 +39,10 @@
       "term": "capacity for movement"
     },
     {
-      "term": "decoding"
+      "term": "representational similarity analysis"
     },
     {
-      "term": "representational similarity analysis"
+      "term": "decoding"
     },
     {
       "term": "Visual Perception",
@@ -57,18 +57,18 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "10.31234/osf.io/3x2qh",
-      "identifier_type": "DOI",
+      "identifier": "https://nemar.org/dataset/on003885",
+      "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "10.18112/openneuro.ds003885.v1.0.7",
+      "identifier": "10.18112/openneuro.ds003885.v1.0.8",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
     },
     {
-      "identifier": "https://nemar.org/dataset/on003885",
-      "identifier_type": "URL",
+      "identifier": "10.1016/j.neuroimage.2022.119517",
+      "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
     }
   ],
@@ -106,5 +106,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "fb87c1b61dacb53606db950ef32dd3a90f647c644e38b4e3e188e2b0aeb4a599"
+  "source_hash": "beefc2190629b1e4bce4c47bb7b362e247e469714561cc6b05d29f818a7885d6"
 }
